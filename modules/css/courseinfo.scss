@@ -1,0 +1,209 @@
+html,body{
+  height: auto;;
+}
+body{
+  background-color: #f6f6f6
+}
+.main{
+  margin: 0 auto;
+  width: 1171px;
+  padding-top: 50px;
+  >.top{
+    padding: 25px 0 25px 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    >img{
+      display: block;
+      width: 500px;
+      height: 300px;
+      float: left;
+    }
+    >.topitr{
+      width: 600px;
+      float: right;
+      >h3{
+        font-size: 24px;
+        color: #212121;
+        margin-bottom: 10px;
+      }
+      >div{
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        padding-left: 10px;
+      }
+      >.price{
+        font-size:14px ;
+        color: #494949;
+        background-color: #f6f6f6;
+        >span{
+          font-size:34px;
+          color: #eb0808;
+        }
+      }
+      >.time{
+        font-size: 16px;
+        color: #717171 ;
+        >span{
+          font-size:16px; ;
+          color: #2f2f2f;
+        }
+      }
+      >.coursetime{
+        font-size: 16px;
+        color: #717171 ;
+        >div{
+          margin-right: 30px;
+          float: left;
+          >span{
+            color: #2f2f2f;
+          }
+        }
+      }
+      >.teacher{
+        font-size: 16px;
+        color: #717171 ;
+        >span{
+          font-size:16px ;
+          color: #2f2f2f;
+        }
+      }
+      >button{
+        margin-left: 10px;
+        border: none;
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 22px;
+        color: #ffffff;
+        background-color: #308fd3;
+        cursor:pointer;
+      }
+    }
+  }
+  >.left{
+    background-color: #ffffff;
+    float: left;
+    width: 830px;
+    >.topnav{
+      padding: 10px 0 10px 20px;
+      >h3{
+        border: none;
+        font-size: 18px;
+        color: #ffffff;
+        width: 110px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        background-color: #308fd3
+      }
+    }
+    >p{
+      height: 60px;
+      line-height: 60px;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #f6f6f6;
+      color: #444141;
+      font-size: 15px;
+    }
+    >h2{
+      padding-left: 20px;
+      border-bottom: 1px solid #f0efef;
+      font-size: 16px;
+      color: #0b60a2;
+      height: 45px;
+      line-height: 45px;
+      >span{
+        width: 4px;
+        height: 15px;
+        float: left;
+        margin-top: 15px;
+        background-color: #0b60a2;
+        margin-right: 7px;
+      }
+    }
+    >ul{
+      padding-left: 20px;
+      margin: 10px 0;
+      >li{
+        white-space: pre;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 33%;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #353535;
+      }
+    }
+  }
+  >.right{
+    float: right;
+    width: 323px;
+    >div{
+      background-color: #ffffff;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      padding: 13px;
+      >h3{
+        border: none;
+        background-color: #308fd3;
+        color: #ffffff;
+        font-size: 20px;
+        height: 30px;
+        width: 125px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+    }
+    >.peixun{
+      >.itr{
+        border-top: 1px solid #f2f0f0;
+        >img{
+          height: 110px;
+          display: block;
+          margin: 0 auto;
+        }
+        >h4{
+          color: #262626;
+          font-size: 18px;
+          margin: 10px 0;
+          text-align: center;
+          font-weight: 700;
+        }
+        >p{
+          font-size: 16px;
+          color: #262626;
+          line-height: 25px;
+          max-height: 100px;
+          overflow: hidden;
+        }
+      }
+    }
+    >.xiangguan{
+      >ul{
+        border-top: 1px solid #f2f0f0;
+        >img{
+          width: 90%;
+          display: block;
+          margin: 10px auto;
+        }
+        >li{
+          color: #262626;
+          font-size: 16px;
+          border-top: 1px solid #f2f0f0;
+          height: 40px;
+          line-height: 40px;
+          padding-left: 20px;
+          box-sizing: border-box;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: pre;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+extends layout
+
+block link
+  link(rel="stylesheet", href="./modules/css/newsList.scss")
+
+block script
+  script(src="./lib/laypage/laypage.js", charset="utf-8")
+  script(src="./modules/app/newsList.es", charset="utf-8")
+  
+block content
+  .content
+    img(src="./images/news/new-top.png")
+    .main.clearfix
+      .left
+        .list
+          a(href="#") 培训动态
+          a(href="#" ,class="checked") 培训政策
+      .right
+          .title 
+            h2 培训动态
+            span 当前位置: 首页 >> 培训动态
+          ul
+            li 
+              i 
+              p 中国—东盟反腐败研讨班在云南开幕 中国将与东盟加强反腐败领域合作 陈豪出席.
+              span [2016-11-03] 
+            li 
+              i
+              p 中国—东盟反腐败研讨班在云南开幕 中国将与东盟加强反腐败领域合作 陈豪出席.
+              span [2016-11-03] 
+            li 
+              i
+              p 中国—东盟反腐败研讨班在云南开幕 中国将与东盟加强反腐败领域合作 陈豪出席.
+              span [2016-11-03] 
+            li 
+              i
+              p 中国—东盟反腐败研讨班在云南开幕 中国将与东盟加强反腐败领域合作 陈豪出席.
+              span [2016-11-03] 
+          #page
+            
+          
+          
+        
+  
+
+  

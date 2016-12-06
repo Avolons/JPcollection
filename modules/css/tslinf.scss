@@ -1,0 +1,129 @@
+.content{
+  width: 100%;
+  >img{
+    display: block;
+    width: 100%;
+    min-width: 1171px;
+  }
+  >.main{
+    width: 1171px;
+    margin: 0 auto;
+    >h2{
+      height: 55px;
+      line-height: 55px;
+      color: #494949;
+      font-size: 18px;
+      border-bottom: 1px solid #ededed;
+      >span{
+        display: block;
+        float: left;
+        width: 5px;
+        height: 18px;
+        margin: 18.5px 8px 18.5px 0;
+        background-color: #0b60a1;
+      }
+    }
+    >.infmain{
+      margin: 40px 0;
+      >.left{
+        float: left;
+        width: 240px;
+        height: 135px;
+        text-align: center;
+        >img{
+            height: 100%
+        }
+      }
+      >.right{
+        width: 910px;
+        float: right;
+        >h2{
+          font-size: 30px;
+          color: #575757;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+        >.text{
+          color: #434343;
+          font-size: 14px;
+          line-height: 30px;
+          a{
+            width: 70px;
+            height: 25px;
+            line-height: 25px;
+            display: inline-block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            background-color: #015293;
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+    >ul{
+      >li{
+        padding: 27px 0 16px 0;
+        border-bottom: 1px solid #ededed;
+        >img{
+          display: block;
+          float: left;
+          width: 360px;
+          height: 206px;
+        }
+        >.itr{
+          float: right;
+          width: 800px;
+          height: 206px;
+          position: relative;
+          >h2{
+            font-size: 14px;
+            color: #4f4e4e;
+            font-weight: 700;
+            margin: 20px 0;
+            margin-bottom: 10px;
+          }
+          >div{
+            >.price{
+              font-size: 20px;
+              color: #ff0d0d;
+              float: left;
+              margin-right: 20px;
+            }
+            >.list{
+              color: #4f4e4e;
+              font-size: 14px;
+              float: left;
+              margin-top: 5px;
+              margin-right: 60px;
+            }
+            >.time{
+              color: #4f4e4e;
+              font-size: 14px;
+              float: left;
+              margin-top: 5px;
+            }
+          }
+          >p{
+            color: #4f4e4e;
+            font-size: 12px;
+            line-height: 30px;
+          }
+          >button{
+            font-size: 12px;
+            color: #0b60a2;
+            background: url("../../images/tsl/button-bc.png");
+            width: 79px;
+            height: 25px;
+            line-height: 25px;
+            display: block;
+            border: none;
+            position: absolute;
+            top: 40px;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}

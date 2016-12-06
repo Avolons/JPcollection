@@ -1,0 +1,25 @@
+{
+  "name": "jpw",
+  "description": "jpw collection",
+  "main": "index.js",
+  "authors": [
+    "wzh"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jpw"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^1.12.4",
+    "vue": "^2.1.3"
+  }
+}

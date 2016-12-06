@@ -1,0 +1,466 @@
+html{
+  height: 100%;
+}
+body {
+    height: 100%;
+
+    .content {
+        padding-top: 70px;
+        width: 1171px;
+        margin: 0 auto;
+
+        > div {
+            &:after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+        }
+        //热门推荐，和图片
+        > .top {
+            > img {
+                width: 860px;
+                display: block;
+                float: left;
+                height: 330px;
+            }
+            //右侧热门推荐
+            > .hot-rec {
+                width: 306px;
+                float: right;
+                height: 330px;
+
+                > h2 {
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: 18px;
+                    background-color: #3493db;
+                }
+
+                > ul {
+                    height: 290px;
+                    overflow: hidden;
+
+                    > li {
+                        height: 48.5px;
+                        line-height: 48.5px;
+                        border-bottom: 1px dashed #ffffff;
+                        background-color: #f5f5f5;
+                        box-sizing: border-box;
+                        padding: 0 15px;
+                        color: #3a3a3a;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        //培训动态
+        >.two{
+          >.left{
+            float: left;
+          }
+          >.right{
+            float: right;
+          }
+          >div{
+            width: 570px;
+            margin-top: 10px;
+            >h2{
+              border-bottom: 1px solid #e2e2e2;
+              >span{
+                height: 15px;
+                width:3px;
+                background-color: #0b60a1;
+                float: left;
+                margin-top: 17.5px;
+                margin-right: 15px;
+              }
+              >button{
+                height: 20px;
+                padding: 0 3px;
+                box-sizing: border-box;
+                color: #585858;
+                font-size: 12px;
+                line-height: 18px;
+                float: right;
+                margin-top: 15px;
+                border: 1px solid #dcdcdc;
+                background-color: transparent;
+                cursor: pointer;
+              }
+              color: #1f1f1f;
+              font-size: 18px;
+              line-height: 50px;
+            }
+            >ul{
+              >li{
+                color: #323232;
+                font-size: 14px;
+                height: 50px;
+                line-height: 50px;
+                border-bottom: 1px solid #e2e2e2;
+                >a{
+                  display: block;
+                  width: 450px;
+                  overflow: hidden;
+                  white-space: pre;
+                  text-overflow: ellipsis;
+                  float: left;
+                }
+                >span{
+                  float: right;
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+        //干部培训和推荐课程
+        >.three{
+          >div{
+            >h2{
+              margin: 10px 0 30px 0;
+              border-bottom: 1px solid #0b60a1;
+              >span{
+                height: 15px;
+                width:3px;
+                background-color: #0b60a1;
+                float: left;
+                margin-top: 22.5px;
+                margin-right: 15px;
+              }
+              >button{
+                border: 1px solid #dcdcdc;
+                background-color: transparent;
+                height: 20px;
+                padding: 0 3px;
+                box-sizing: border-box;
+                color: #585858;
+                font-size: 12px;
+                line-height: 18px;
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+              }
+              color: #1f1f1f;
+              font-size: 18px;
+              line-height: 60px;
+            }
+          }
+          >.left{
+            float: left;
+            width: 865px;
+            >ul{
+              font-size: 0;
+              >li{
+                display: inline-block;
+                margin-bottom: 20px;
+                cursor: pointer;
+                >img{
+                  display: block;
+                  height: 170px;
+                  width: 280px;
+                }
+                >h3{
+                    color: #090909;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 45px;
+                }
+                >.text{
+                  width: 100%;
+                  >span{
+                    font-size: 12px;
+                  }
+                  >.left{
+                    color:#be0000
+                  }
+                  >.right{
+                    color:#5e5e5e;
+                    margin-left: 80px;
+                  }
+                }
+              }
+              >li:nth-of-type(2){
+                margin: 0 12px;
+              }
+              >li:nth-of-type(5){
+                margin: 0 12px;
+              }
+            }
+          }
+          >.right{
+            width: 285px;
+            float: right;
+            >img{
+              display: block;
+              width: 100%;
+              height: 173px;
+            }
+            >ul{
+              height: 315px;
+              overflow: hidden;
+              >li{
+                height: 45px;
+                border-bottom: 1px solid #cecece;
+                color: #201e1e;
+                line-height: 45px;
+                font-size: 14px;
+                text-align: left;
+                box-sizing: border-box;
+              }
+            }
+          }
+        }
+        //企业培训和最新课程
+        > .four{
+          >div{
+            >h2{
+              margin: 0 0 30px 0;
+              border-bottom: 1px solid #0b60a1;
+              >span{
+                height: 15px;
+                width:3px;
+                background-color: #0b60a1;
+                float: left;
+                margin-top: 22.5px;
+                margin-right: 15px;
+              }
+              >button{
+                border: 1px solid #dcdcdc;
+                background-color: transparent;
+                height: 20px;
+                padding: 0 3px;
+                box-sizing: border-box;
+                color: #585858;
+                font-size: 12px;
+                line-height: 18px;
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+              }
+              color: #1f1f1f;
+              font-size: 18px;
+              line-height: 60px;
+            }
+          }
+          >.left{
+            float: left;
+            width: 575px;
+            >ul{
+              font-size: 0;
+              >li:nth-of-type(1){
+                margin-right: 15px;
+              }
+              >li{
+                display: inline-block;
+                margin-bottom: 20px;
+                cursor: pointer;
+                >img{
+                  display: block;
+                  height: 170px;
+                  width: 280px;
+                }
+                >h3{
+                    color: #090909;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 45px;
+                }
+                >.text{
+                  width: 100%;
+                  >span{
+                    font-size: 12px;
+                  }
+                  >.left{
+                    color:#be0000
+                  }
+                  >.right{
+                    color:#5e5e5e;
+                    margin-left: 80px;
+                  }
+                }
+              }
+            }
+          }
+          >.right{
+            width: 570px;
+            float: right;
+            >ul{
+              height: 225px;
+              overflow: hidden;
+              >li:nth-of-type(1){
+                border-top: 1px solid #cecece;
+              }
+              >li{
+                height: 45px;
+                border-bottom: 1px solid #cecece;
+                color: #201e1e;
+                line-height: 45px;
+                font-size: 14px;
+                text-align: left;
+                box-sizing: border-box;
+                >a{
+                  display: block;
+                  float: left;
+                }
+                >span{
+                  float: right;
+                  display: block;
+                  text-align: right;
+                  padding-right: 10px;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+        //技能培训和推荐课程
+        >.five{
+          >div{
+            >h2{
+              margin:0 0 30px 0;
+              border-bottom: 1px solid #0b60a1;
+              >span{
+                height: 15px;
+                width:3px;
+                background-color: #0b60a1;
+                float: left;
+                margin-top: 22.5px;
+                margin-right: 15px;
+              }
+              >button{
+                border: 1px solid #dcdcdc;
+                background-color: transparent;
+                height: 20px;
+                padding: 0 3px;
+                box-sizing: border-box;
+                color: #585858;
+                font-size: 12px;
+                line-height: 18px;
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+              }
+              color: #1f1f1f;
+              font-size: 18px;
+              line-height: 60px;
+            }
+          }
+          >.left{
+            float: left;
+            width: 865px;
+            >ul{
+              font-size: 0;
+              >li{
+                display: inline-block;
+                margin-bottom: 20px;
+                cursor: pointer;
+                >img{
+                  display: block;
+                  height: 170px;
+                  width: 280px;
+                }
+                >h3{
+                    color: #090909;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 45px;
+                }
+                >.text{
+                  width: 100%;
+                  >span{
+                    font-size: 12px;
+                  }
+                  >.left{
+                    color:#be0000
+                  }
+                  >.right{
+                    color:#5e5e5e;
+                    margin-left: 80px;
+                  }
+                }
+              }
+              >li:nth-of-type(2){
+                margin: 0 12px;
+              }
+              >li:nth-of-type(5){
+                margin: 0 12px;
+              }
+            }
+          }
+          >.right{
+            width: 285px;
+            float: right;
+            >img{
+              display: block;
+              width: 100%;
+              height: 173px;
+            }
+            >ul{
+              height: 315px;
+              overflow: hidden;
+              >li{
+                height: 45px;
+                border-bottom: 1px solid #cecece;
+                color: #201e1e;
+                line-height: 45px;
+                font-size: 14px;
+                text-align: left;
+                box-sizing: border-box;
+              }
+            }
+          }
+        }
+        //轮播图
+        > .six {
+            padding-bottom: 10px;
+            >h2{
+              margin: 0 0 30px 0;
+              border-bottom: 1px solid #0b60a1;
+              >span{
+                height: 15px;
+                width:3px;
+                background-color: #0b60a1;
+                float: left;
+                margin-top: 22.5px;
+                margin-right: 15px;
+              }
+              >button{
+                border: 1px solid #dcdcdc;
+                background-color: transparent;
+                height: 20px;
+                padding: 0 3px;
+                box-sizing: border-box;
+                color: #585858;
+                font-size: 12px;
+                line-height: 18px;
+                float: right;
+                margin-top: 20px;
+                cursor: pointer;
+              }
+              color: #1f1f1f;
+              font-size: 18px;
+              line-height: 60px;
+            }
+            > .silder-box {
+                width: 1200px;
+                margin: 0 auto;
+                overflow: hidden;
+                box-sizing: border-box;
+                padding: 0 45px;
+
+                li {
+                    width: 265px;
+                    height: 105px;
+                }
+
+                .silder-button {
+                    top: 25px;
+                }
+            }
+        }
+    }
+}

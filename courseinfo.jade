@@ -1,0 +1,60 @@
+extends layout
+
+block link
+  link(rel="stylesheet", href="./modules/css/courseinfo.scss")
+
+block script
+  script(src="./modules/app/courseinfo.es", charset="utf-8")
+  
+block content
+  .main.clearfix
+    //头部
+    .top.clearfix
+      img(src="./images/index/example.png", alt="")
+      .topitr
+        h3 课程名称
+        .price 价格：
+          span ￥200.00
+        .time 报名时间：
+          span 2016年8月4日-2016年8月11日
+        .coursetime.clearfix
+          .alltime 总课时：
+            span 5课时
+          .efftime 有效期：
+            span 365天
+        .teacher 主讲教师：
+          span 黄娇娇
+        button(type="button", class="startstudy") 进入课程
+    //左侧
+    .left
+      .topnav
+        h3 课程介绍
+      p 适用人群：适合视频爱好者和有意从事视频制作的人
+      h2 课程信息
+        span 
+      ul.clearfix
+        li 课程名称：
+        li 主讲教师：
+        li 难易程度：
+        li 总共章节：
+        li 课程时长：
+      h2 课程简介
+        span   
+      pre
+        
+    //右部分
+    .right
+      .peixun
+        h3 培训结构介绍
+        .itr
+          img(src="./images/index/example.png", alt="")
+          h4 文都网校
+          p 是噶施工工地打工阿双方都是个梵蒂冈水电费工地施工第十个都是法国第十个电饭锅十多个广东
+      .xiangguan  
+        h3 相关培训
+        ul
+          img(src="./images/index/example.png", alt="")
+          li 2015青岛培训
+          li 2015青岛培训
+          li 2015青岛培训
+          

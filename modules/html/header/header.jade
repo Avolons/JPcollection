@@ -1,0 +1,67 @@
+.header
+  .grid_wrap
+    .logo.pull_left
+      // #begineditable name="LOGO" viewid="125122" tagname="LOGO" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""
+      // 网站logo图片地址请在本组件"内容配置-网站logo"处填写
+      a(href='', title='教育培训网')
+        img(src='/images/logo.jpg', width='822', height='97', border='0', alt='教育培训网', title='教育培训网')
+      // #endeditable
+    .pull_right
+      // #begineditable name="全文检索" viewid="125141" tagname="全文检索" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""
+      script(type='text/javascript').
+        function _nl_ys_check(){
+        var keyword = document.getElementById('showkeycode125141').value;
+        if(keyword==null||keyword==""){
+        alert("请输入你要检索的内容！");
+        return false;
+        }
+        if(window.toFF==1)
+        {
+        document.getElementById("lucenenewssearchkeyword125141").value = Simplized(keyword );
+        }else
+        {
+        document.getElementById("lucenenewssearchkeyword125141").value = keyword;
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkeyword125141").value = base64.encode(document.getElementById("lucenenewssearchkeyword125141").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode125141"));
+        return true;
+        }
+      form#au1a.search(action='search.jsp?wbtreeid=1001', method='post', name='au1a', onsubmit='return _nl_ys_check()')
+        input#lucenenewssearchkeyword125141(type='hidden', name='lucenenewssearchkeyword', value='')
+        input#_lucenesearchtype125141(type='hidden', name='_lucenesearchtype', value='1')
+        input#searchScope125141(type='hidden', name='searchScope', value='0')
+        label.search-input
+          input#showkeycode125141(name='showkeycode', type='text', value='站内搜索', onfocus="if(this.value=='站内搜索')this.value='';", onblur="if(this.value=='')this.value='站内搜索';", maxlength='255', autocomplete='off')
+        label.search-btn
+          input(type='submit', align='absmiddle', value='', style='cursor: hand')
+          i.icon.icon-search
+      script(language='javascript', src='/lib/base64.js')
+      script(language='javascript', src='/lib/formfunc.js')
+      // #endeditable
+// nav
+.nav.clearfix
+  .grid_wrap
+    // #begineditable name="网站导航" viewid="125123" tagname="网站导航" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""
+    ul
+      li.item.current
+        a(href='index.htm') 首页
+      li.item
+        a(href='jgjs1/jgjj.htm') 机构介绍
+      li.item
+        a(href='http://www.mohrss.gov.cn/SYrlzyhshbzb/zcfg/flfg/') 政策法规
+      li.item
+        a(href='xtpx.htm') 系统培训
+      li.item
+        a(href='qypx.htm') 企业培训
+      li.item
+        a(href='jnpx.htm') 技能培训
+      li.item
+        a(href='http://ol.edu.mohrss.gov.cn/zxpx/index.html') 网络培训
+      li.item
+        a(href='pxjd1/jjpxjd.htm') 培训基地
+      li.item
+        a(href='dwjl.htm') 对外交流
+      li.item.last-item
+        a(href='jxjy.htm') 教学教研
+    // #endeditable

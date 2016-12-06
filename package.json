@@ -1,0 +1,17 @@
+{
+  "name": "jpw",
+  "version": "1.0.0",
+  "description": "jpw collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpw"
+  ],
+  "author": "wzh",
+  "license": "ISC",
+  "devDependencies": {
+    "fis-parser-jade": "^0.0.12"
+  }
+}

@@ -1,0 +1,258 @@
+extends layout
+
+block link
+  link(rel="stylesheet", href="lib/mySilder/css/style.css")
+  link(rel="stylesheet", href="./modules/css/index.scss")
+    
+block script
+  script(src="./lib/mySilder/js/mySystem.js", charset="utf-8")
+  script(type="text/javascript",charset="utf-8",src="./modules/app/index.es")
+  
+block content
+  .content
+      //顶部区域
+      .top
+        img(src="./images/index/index-top.png")
+        //- 热门推荐
+        .hot-rec
+          h2 热门推荐
+          ul
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+            li(class="overflow_pre",data-src="./images/index/index-top.png")
+              a(href="") 浙江省中小学教师专业发展远程培训
+      //培训动态
+      .two
+        .net.left
+          h2
+            span 
+            |网络培训动态
+            button(type="button",class="btn") MORE+ 
+          ul
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+        .net.right
+          h2
+            span 
+            |网络培训政策
+            button(type="button",class="btn") MORE+ 
+          ul
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+            li 
+              a(href="#") 杨斌会见英国慕课平台Futurelearn总裁
+              span 10-01
+      //干部培训和推荐课程
+      .three
+        .left
+          h2 
+            span 
+            |干部培训
+          ul
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+        .right
+          h2 
+            span 
+            |推荐课程
+            button(type="button",class="btn") MORE+
+          img(src="./images/index/example.png", alt="")
+          ul
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#")  浙江省中小学教师专业发展远程培训
+          //企业培训和最新课程
+    
+      //技能培训和推荐课程
+      .five
+        .left
+          h2 
+            span 
+            |技能培训
+          ul
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+        .right
+          h2 
+            span 
+            |推荐课程
+            button(type="button",class="btn") MORE+
+          img(src="./images/index/example.png", alt="")
+          ul
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师专业发展远程培训
+            li.overflow_pre
+              a(href="#") 浙江省中小学教师专业发展远程培训      
+      //轮播图
+      .four
+        .left
+          h2 
+            span
+            |企业培训
+          ul
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+            li
+              img(src="./images/index/example.png")
+              h3.overflow_pre 项目名称1
+              .text
+                span.left ￥200.00
+                span.right 章节:十章节
+        .right
+          h2 
+            span 
+            |最新课程
+            button(type="button", class="btn") MORE+ 
+          ul
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师专业发展远程培训撒范德萨撒地
+              span 黄姣姣
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师展远程培训
+            li.overflow_pre 
+              a(href="#") 浙江省中小学教师专业发展远程培训
+            li.overflow_pre 
+              a(href="#") 浙江省中小学专业发展远程培训
+      .six
+        h2   
+          span 
+          |合作机构
+          button(type="button", class="btn") MORE+
+        .silder-box.silder-box-1
+          .silder
+            ul
+              li
+                img(src='./images/index/index1.png')
+              li
+                img(src='./images/index/index2.png')
+              li
+                img(src='./images/index/index3.png')
+              li
+                img(src='./images/index/index4.png')
+              li
+                img(src='./images/index/index1.png')
+              li
+                img(src='./images/index/index2.png')
+              li
+                img(src='./images/index/index3.png')
+              li
+                img(src='./images/index/index4.png')
+          .silder-button.btl
+          .silder-button.btr
+          
+              
+          
+              
+            
+                    
+          
+        
+          
+          
+          
+            
+          
+              
+            
+            
+            
+          
+
+  
+        
+    
+    

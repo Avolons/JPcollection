@@ -1,0 +1,42 @@
+extends layout
+
+block link
+  link(rel="stylesheet", href="./modules/css/newsinfo.scss")
+
+block script
+  script(src="./modules/app/newsinfo.es", charset="utf-8")
+  
+  
+block content
+  .content
+    img(src="./images/news/new-top.png")
+    .main.clearfix
+      .left
+        .list
+          a(href="#") 培训动态
+          a(href="#" ,class="checked") 培训政策
+      .right
+          .title 
+            h2 培训动态
+            span 当前位置: 首页 >> 培训动态
+          .textcontent
+            h2 育养老管理人才，促产业健康发展
+            .top 
+              span.time 发表时间：2016-05-30 10:16:31
+              span.from 来源：人民日报
+              span.share 分享到：
+            pre   
+            
+            a(href="#",class="nextpage") 下一篇：《央企来袭，中教在线携手电子六所，开拓电子行业培训》
+            
+            
+            
+              
+              
+            
+          
+          
+        
+  
+
+  

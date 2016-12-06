@@ -1,0 +1,76 @@
+extends layout
+
+block link
+  link(rel="stylesheet", href="./modules/css/courseList.scss")
+
+block script
+  script(src="./lib/laypage/laypage.js", charset="utf-8")
+  script(src="./modules/app/courseList.es", charset="utf-8")
+  
+block content
+  .main.clearfix
+    .left
+      .list
+        a(href="#") 全部课程分类
+        a(href="#" ,class="checked") 干部培训课程
+        a(href="#") 企业培训课程
+        a(href="#") 技能培训课程
+    .right
+        .topnav
+          .search
+            span
+            input(type="text", value="",placeholder="输入你想要的课程名称")
+          .list 排序
+            .child
+              h3 按最新
+              h3.checked 按热门
+        ul.clearfix
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+              span.time 12课时
+          li 
+            img(src="./images/index/example.png", alt="")
+            h3 创造巅峰学习状态
+            .itr
+              span.price ￥200
+                  span.time 12课时
+        #page
